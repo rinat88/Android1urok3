@@ -1,4 +1,4 @@
-package com.example.android1urok3;
+package com.example.android1urok3.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.android1urok3.R;
 
 public class GameActivity extends AppCompatActivity {
     Button firstAnswer, secondAnswer, thirdAnswer, fourAnswer;
@@ -23,8 +25,6 @@ public class GameActivity extends AppCompatActivity {
         setQuestion();
         click();
     }
-
-
 
     private void initViews() {
         currentLevelTv = findViewById(R.id.level_tv);

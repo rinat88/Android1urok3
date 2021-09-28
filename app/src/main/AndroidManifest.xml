@@ -10,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Android1Urok3">
         <activity
-            android:name=".GameActivity"
+            android:name=".ui.GameActivity"
             android:exported="true" />
         <activity
-            android:name=".LevelActivity"
+            android:name=".ui.LevelActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

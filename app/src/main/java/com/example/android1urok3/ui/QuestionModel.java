@@ -1,4 +1,4 @@
-package com.example.android1urok3;
+package com.example.android1urok3.ui;
 
 import java.io.Serializable;
 
@@ -10,6 +10,19 @@ public class QuestionModel implements Serializable {
     private String secondVariant;
     private String thirdVariant;
     private String fourVariant;
+
+    public QuestionModel(String currentLevel, String question, String answer, String firstVariant, String secondVariant, String thirdVariant, String fourVariant) {
+        this.currentLevel = currentLevel;
+        this.question = question;
+        this.answer = answer;
+        this.firstVariant = firstVariant;
+        this.secondVariant = secondVariant;
+        this.thirdVariant = thirdVariant;
+        this.fourVariant = fourVariant;
+    }
+
+    public QuestionModel() {
+    }
 
     public String getCurrentLevel() {
         return currentLevel;
